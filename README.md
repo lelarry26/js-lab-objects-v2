@@ -66,7 +66,7 @@ let person = {
 Write code to do the following:
 
 - Print the person's name name 
-- Print the person's city city
+- Print the person's city
 - Print the person's state
 - Add a lastName key of Doe to the person object.
 - Change the name in the person object it John. 
@@ -75,10 +75,10 @@ Write code to do the following:
 
 #### 3. Phonebook object
 
-Given the following dictionary, representing a mapping from names to phone numbers:
+Given the following object representing a mapping from names to phone numbers:
 
 ```js
-phonebook_obj = {
+let phonebook_obj = {
   Alice: '703-493-1834',
   Bob: '857-384-1234',
   Elizabeth: '484-584-2923'
@@ -98,7 +98,7 @@ Write code to do the following:
 Given the following object:
 
 ```js
-ramit = {
+let ramit = {
   name: 'Ramit',
   email: 'ramit@gmail.com',
   interests: ['movies', 'tennis'],
