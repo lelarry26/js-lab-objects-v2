@@ -29,12 +29,12 @@
 // console.log(person.name);
 // console.log(person.address.city);
 // console.log(person.address.state);
-// let lastName = [];
-// lastName.push(person);
+// // let lastName = new Object(); This line is not needed, like 33 works fine on its own
 // person.lastName = "Doe";
 // person.name = "John";
 // person.address.street = "456 Main St.";
-// let zip = [];zip.pop(person);
+// let zip = [];
+// zip.pop(person);
 // delete person.address["zip"];
 // console.log(person);
 //----------------------------------------------------------------------------------------------------------
@@ -54,9 +54,8 @@
 // - Change Bob's phone number to '968-345-2345'.
 // - Print all the phone entries.
 
-//console.log (phonebook_obj.Alice);
-// let Kareem = [];
-// Kareem.push(phonebook_obj);
+// console.log (phonebook_obj.Elizabeth);
+// let Kareem = new Object();
 // phonebook_obj.Kareem = '938-489-1234';
 // delete phonebook_obj['Alice'];
 // phonebook_obj.Bob = '968-345-2345';
@@ -118,4 +117,9 @@
 //   { make: 'Honda', model: 'Civic', color: 'blue' },
 //   { make: 'Ford', model: 'F-150', color: 'black' }
 // ];
-// console.log([cars[0].color, cars[1].color, cars[2].color]);
+// console.log([cars[0].color, cars[1].color, cars[2].color]); //this answer works
+// let carColors = []; //but this solution is better
+// for(let i = 0; i < cars.length; i++){
+//    carColors.push(cars[i].color)
+// }
+// console.log(carColors);
